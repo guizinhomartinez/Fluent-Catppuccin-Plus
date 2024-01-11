@@ -306,13 +306,10 @@ html, body, .text-md-normal__4afad {
 .title_b7d661, .container__11d72, .themed_b152d4 {
     padding-top: 5px !important;
     margin-top: 10px;
-    padding: auto;
-    position: fixed;
-    margin-left: 10px;
-    margin-right: 10px;
+    position: absolute;
+    scale: 98.2%;
     border-radius: 30px !important;
     background: rgba(var(--background-secondary), 1) !important;
-    width: 1020px;
     backdrop-filter: blur(12px) !important;
     box-shadow: 0px 0px 5px black;
 }
@@ -366,15 +363,13 @@ html, body, .text-md-normal__4afad {
 }
 
 .newMessagesBar__8b6d7, .barBase__4e0ba {
-    position: fixed;
     border-radius: 30px;
-    width: 1020px;
-    margin-top: 85px;
-    margin-left: 80px;
-    margin-right: 80px;
-    left: 250px;
+    margin-top: 65px;
+    width: 1100px !important;
+    position: sticky;
     opacity: 1;
     box-shadow: 0px 0px 10px black;
+    scale: 98.2%;
 }
 
 .panels__58331, .channelTextArea__2e60f, .children__32014, .form__13a2c, .wrapper__0ed4a {

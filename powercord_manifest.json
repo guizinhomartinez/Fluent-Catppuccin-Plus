@@ -1,7 +1,7 @@
 {
     "name": "Fluent Catppuccin Plus",
     "description": "A Discord theme dedicated to uniformity, featuring the delightful Catppuccin theme as its primary color scheme.",
-    "version": "3.0",
+    "version": "3.1",
     "author": "GuizinhoMartinez (dev), gamer13 (beta tester)",
     "theme": "Fluent Catppuccin Plus.css",
     "consent": ["ext_listing"],

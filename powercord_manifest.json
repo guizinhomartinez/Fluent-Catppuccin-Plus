@@ -1,9 +1,9 @@
 {
-    "name": "Dark Matter",
-    "description": "A cold, dark & frosty theme.",
+    "name": "Fluent Catppuccin Plus",
+    "description": "A Discord theme dedicated to uniformity, featuring the delightful Catppuccin theme as its primary color scheme.",
     "version": "3.0",
-    "author": "Tropical#8908, Hammock#3110",
-    "theme": "DarkMatter.theme.css",
+    "author": "GuizinhoMartinez (dev), gamer13 (beta tester)",
+    "theme": "Fluent Catppuccin Plus.css",
     "consent": ["ext_listing"],
     "license": "MIT"
 }

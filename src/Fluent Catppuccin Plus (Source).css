@@ -9,6 +9,10 @@
     --font-code: "DM Mono", 'Consolas', monospace;
 }
 
+code {
+    font-family: var(--font-code);
+}
+
 @font-face {
   font-family: "Circular Std";
   font-style: normal;
@@ -43,7 +47,7 @@
     border-radius: 30px !important;
 }
 
-.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .lookOutlined__46d54.colorRed_d6b062, .lookFilled__19298.colorRed_d6b062, .credentialList_f9417e, .giftButton_bb2551, .lookFilled__19298.colorGreen__5f181, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorWhite__43488, .markup_a7e664 code, .contentWrapper__321ed, .navButton__05cc7, .accountProfileCard__22589, .background_b61fcc, .searchBar_ff8800, .container__467eb, .buttonColor__6f6b0, .root_a28985, .optionBox__0338f, .section_efc22d:only-child, .popoutContainer__7b9a3, .badgeLabel__7c5a4, .categorySection_f44c2f, .overlayBackground__86b78, .connectedAccountContainer__23f00, .search_ac353c .DraftEditor-root .searchBar_e0c60b, .input_d266e7, .lookFilled__3dba3.select__0eb48, .messageInputContainer__768e6, .userProfileOuterThemed__6eb84, .layout_bb8e67, .popout__24e32, .row__4daf2, .banner_f13f1e, .wrapper_fbbb73, .prompt__1b100, .profileCard_bd55ee, .search__4a09e, .container__6a848, .lookOutlined__46d54.colorPrimary__6ed40, .root__46d4f, .noiseCancellationPopout__06ec4, .container__7712a, .container_e4c233, .wrapperAudio__555ce.newMosaicStyle_fb18b9, .audioControls__9fbe9, .connectContainer__8050b, .connection_fff5f6, .selectedBackground_d847da, .item_b7fb7e, .channelTextArea__2e60f, .altTag__3fced, .card__7756d, .qualitySettingsContainer__5cacd {
+.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .lookOutlined__46d54.colorRed_d6b062, .lookFilled__19298.colorRed_d6b062, .credentialList_f9417e, .giftButton_bb2551, .lookFilled__19298.colorGreen__5f181, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorWhite__43488, .markup_a7e664 code, .contentWrapper__321ed, .navButton__05cc7, .accountProfileCard__22589, .background_b61fcc, .searchBar_ff8800, .container__467eb, .buttonColor__6f6b0, .root_a28985, .optionBox__0338f, .section_efc22d:only-child, .popoutContainer__7b9a3, .badgeLabel__7c5a4, .categorySection_f44c2f, .overlayBackground__86b78, .connectedAccountContainer__23f00, .search_ac353c .DraftEditor-root .searchBar_e0c60b, .input_d266e7, .lookFilled__3dba3.select__0eb48, .messageInputContainer__768e6, .userProfileOuterThemed__6eb84, .layout_bb8e67, .popout__24e32, .row__4daf2, .banner_f13f1e, .wrapper_fbbb73, .prompt__1b100, .profileCard_bd55ee, .search__4a09e, .container__6a848, .lookOutlined__46d54.colorPrimary__6ed40, .root__46d4f, .noiseCancellationPopout__06ec4, .container__7712a, .container_e4c233, .wrapperAudio__555ce.newMosaicStyle_fb18b9, .audioControls__9fbe9, .connectContainer__8050b, .connection_fff5f6, .selectedBackground_d847da, .item_b7fb7e, .channelTextArea__2e60f, .altTag__3fced, .card__7756d, .qualitySettingsContainer__5cacd, .theme-dark .lookFilled__19298.colorTransparent__4c280, .channels_d0410f, .sectionContent_fb280b, .pillContainer_e97d2d, .messagesPopoutWrap_b3b384, .messagesPopout__22763, .lookFilled__19298.colorYellow_a62893, .quickswitcher_a3d29a, .input__848cd, .result__25f11 {
     border-radius: 30px;
 }
 
@@ -73,11 +77,32 @@
     border-top: none;
 }
 
+.backdrop__7e89b {
+    backdrop-filter: blur(12px) !important;
+    animation: opacity-change 150ms alternate;
+}
+
+.input__848cd {
+    box-shadow: 1px 1px rgba(0, 0, 0, .75);
+}
+
+@keyframes opacity-change {
+    from {
+        opacity: 0;
+        backdrop-filter: blur(0px) !important;
+    }
+
+    to {
+        opacity: 1;
+        backdrop-filter: blur(120px) !important;
+    }
+}
+
 .media__059e0, .spoilerContainer_c7b533, .emojiItem_b15dee {
     border-radius: 15px;
 }
 
-.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .layout_bb8e67, .row__4daf2 {
+.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .layout_bb8e67, .row__4daf2, .result__25f11 {
     transition-property: background-color;
     transition-duration: 150ms;
 }
@@ -147,14 +172,6 @@
     padding-right: 10px;
 }
 
-html, body, .text-md-normal__4afad /* font change */ {
-}
-
-code {
-    font-family: "DM Mono", Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-    'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
-}
-
 ::selection /* when selecting a text */ {
     color: white;
     background: var(--selection-color);
@@ -204,7 +221,7 @@ code {
     background-color: var(--background-secondary);
 }
 
-.vc-addon-card, .mainCard__8a660, .attachment_f3cf2c.newMosaicStyle__235c9, .attachment_f3cf2c, /*.button_afdfd9, */.contextMenuContainer_fc4df6, .promptOptions__8e373, .channelRow__96673, .vc-notification-root, .searchResult_dcd237 {
+.vc-addon-card, .mainCard__8a660, .attachment_f3cf2c.newMosaicStyle__235c9, .attachment_f3cf2c, /*.button_afdfd9, */.contextMenuContainer_fc4df6, .promptOptions__8e373, .channelRow__96673, .vc-notification-root, .searchResult_dcd237, .activityItem__33da9, .messageGroupWrapper_f8c6e9 {
     border-radius: 20px;
 }
 
@@ -260,6 +277,10 @@ code {
     background-color: var(--background-tertiary);
 }
 
+.checkbox_c7f690, .round__67d8d, .checked__24ad6 {
+    /* background-color:red; */
+}
+
 /* general colors */
 
 .theme-dark {
@@ -297,6 +318,11 @@ code {
     --white-theme-hover-color: white;
     --status-warning: rgb(238, 212, 159);
     --status-danger: rgb(237, 135, 150);
+    --modal-background: var(--background-tertiary);
+    --bg-base-tertiary: var(--background-tertiary);
+    --bg-base-secondary: var(--background-secondary);
+    --background-modifier-accent: var(--the-light-color);
+    --profile-gradient-button-color: var(--the-light-color);
 }
 
 .theme-light {
@@ -416,7 +442,8 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
 
 .panel_bd8c76 {
     border-radius: 30px !important;
-    margin: 5px !important;
+    /* margin: 5px !important; */
+    margin-top: 3px;
 }
 
 .panels__58331 {
@@ -687,18 +714,17 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
 	--scrollbar-thin-thumb: transparent;
 }
 
-.peopleListItem_d14722:hover, .peopleListItem_d14722.active__6b8ff {
-    border-radius: 30px;
-    transition-property: background;
-    transition-duration: 300ms;
-}
-
-.peopleListItem_d14722:not(:hover) {
+.peopleListItem_d14722 {
+    border-color: var(--background-primary);
     border-radius: 30px;
     margin: 0 10px 0 20px;
     padding: 16px 10px;
     transition-property: background;
     transition-duration: 300ms;
+}
+
+.peopleListItem_d14722:hover, .peopleListItem_d14722.active__6b8ff {
+    border-radius: 30px;
 }
 
 .discriminator_aef524 {
@@ -812,7 +838,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
     box-shadow: none;
 }
 
-.header__104ca {
+.header__104ca, .theme-dark .separator__925e8, .modalHeader_e68db4 {
     border-radius: 30px 30px 0 0;
 }
 
@@ -926,7 +952,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
 }
 
 .card__4dc22:not(.outline_cb0aed) {
-    background-color: var(--info-warning-background);
+    /* background-color: var(--info-warning-background); */
 }
 
 .card__4dc22 {
@@ -935,7 +961,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
 
 .text-sm-normal_e612c7, .contents_fb6220, .text-xs-normal__56c35, .defaultColor__87d87 {font-weight: 800;}
 .nicknames__7447d {font-style: italic;}
-.text-sm-normal_e612c7:first-letter {text-transform: uppercase;}
+/* .text-sm-normal_e612c7:first-letter {text-transform: uppercase;} */
 
 .defaultValue__4f02f .markValue_e7a6e4 {
     color: var(--white-500);

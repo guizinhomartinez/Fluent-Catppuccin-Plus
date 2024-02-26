@@ -47,7 +47,7 @@ code {
     border-radius: 30px !important;
 }
 
-.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .lookOutlined__46d54.colorRed_d6b062, .lookFilled__19298.colorRed_d6b062, .credentialList_f9417e, .giftButton_bb2551, .lookFilled__19298.colorGreen__5f181, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorWhite__43488, .markup_a7e664 code, .contentWrapper__321ed, .navButton__05cc7, .accountProfileCard__22589, .background_b61fcc, .searchBar_ff8800, .container__467eb, .buttonColor__6f6b0, .root_a28985, .optionBox__0338f, .section_efc22d:only-child, .popoutContainer__7b9a3, .badgeLabel__7c5a4, .categorySection_f44c2f, .overlayBackground__86b78, .connectedAccountContainer__23f00, .search_ac353c .DraftEditor-root .searchBar_e0c60b, .input_d266e7, .lookFilled__3dba3.select__0eb48, .messageInputContainer__768e6, .userProfileOuterThemed__6eb84, .layout_bb8e67, .popout__24e32, .row__4daf2, .banner_f13f1e, .wrapper_fbbb73, .prompt__1b100, .profileCard_bd55ee, .search__4a09e, .container__6a848, .lookOutlined__46d54.colorPrimary__6ed40, .root__46d4f, .noiseCancellationPopout__06ec4, .container__7712a, .container_e4c233, .wrapperAudio__555ce.newMosaicStyle_fb18b9, .audioControls__9fbe9, .connectContainer__8050b, .connection_fff5f6, .selectedBackground_d847da, .item_b7fb7e, .channelTextArea__2e60f, .altTag__3fced, .card__7756d, .qualitySettingsContainer__5cacd, .theme-dark .lookFilled__19298.colorTransparent__4c280, .channels_d0410f, .sectionContent_fb280b, .pillContainer_e97d2d, .messagesPopoutWrap_b3b384, .messagesPopout__22763, .lookFilled__19298.colorYellow_a62893, .quickswitcher_a3d29a, .input__848cd, .result__25f11, .button__9491f, .theme-dark .tooltipPrimary_e5c00d, .theme-light .tooltipPrimary_e5c00d {
+.interactive__776ee, .clickable_f8437d>.base__76a71, .link__95dc0, .clickable_f8437d[aria-disabled=false]>.itemWrapper__8802c, .tabBar__73938, .lookFilled__19298.colorBrand_b2253e, .side_b4b3f6 .item__48dda, .lookOutlined__46d54.colorRed_d6b062, .lookFilled__19298.colorRed_d6b062, .credentialList_f9417e, .giftButton_bb2551, .lookFilled__19298.colorGreen__5f181, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorWhite__43488, .markup_a7e664 code, .contentWrapper__321ed, .navButton__05cc7, .accountProfileCard__22589, .background_b61fcc, .searchBar_ff8800, .container__467eb, .buttonColor__6f6b0, .root_a28985, .optionBox__0338f, .section_efc22d:only-child, .popoutContainer__7b9a3, .badgeLabel__7c5a4, .categorySection_f44c2f, .overlayBackground__86b78, .connectedAccountContainer__23f00, .search_ac353c .DraftEditor-root .searchBar_e0c60b, .input_d266e7, .lookFilled__3dba3.select__0eb48, .messageInputContainer__768e6, .userProfileOuterThemed__6eb84, .layout_bb8e67, .popout__24e32, .row__4daf2, .banner_f13f1e, .wrapper_fbbb73, .prompt__1b100, .profileCard_bd55ee, .search__4a09e, .container__6a848, .lookOutlined__46d54.colorPrimary__6ed40, .root__46d4f, .noiseCancellationPopout__06ec4, .container__7712a, .container_e4c233, .wrapperAudio__555ce.newMosaicStyle_fb18b9, .audioControls__9fbe9, .connectContainer__8050b, .connection_fff5f6, .selectedBackground_d847da, .item_b7fb7e, .channelTextArea__2e60f, .altTag__3fced, .card__7756d, .qualitySettingsContainer__5cacd, .theme-dark .lookFilled__19298.colorTransparent__4c280, .channels_d0410f, .sectionContent_fb280b, .pillContainer_e97d2d, .messagesPopoutWrap_b3b384, .messagesPopout__22763, .lookFilled__19298.colorYellow_a62893, .quickswitcher_a3d29a, .input__848cd, .result__25f11, .button__9491f, .theme-dark .tooltipPrimary_e5c00d, .theme-light .tooltipPrimary_e5c00d, .withTagAsButton_cc125f:hover, .withTagless__98b7d:hover, .withTagAsButton_cc125f:not(:hover), .withTagless__98b7d:not(:hover) {
     border-radius: 30px;
 }
 
@@ -141,6 +141,11 @@ code {
     transition-duration: 150ms;
 }
 
+.privateChannelsHeaderContainer_ddcec6:hover, .privateChannelsHeaderContainer_ddcec6:not(:hover) {
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
 .heading-deprecated-12-semibold__5ec62, .headerLabel_e9f74f, .header__123bf {
     text-align: center !important;
 }
@@ -175,7 +180,7 @@ code {
     transition-property: scale;
     transition-duration: 150ms;
 }
-[class^='winButtonClose']::after {
+[class^='winButtonClose']::after, .status__4454b {
 	background-color: var(--status-danger) !important;
 }
 [class^='winButtonMinMax']:nth-child(3)::after {
@@ -377,7 +382,7 @@ code {
     --bg-overlay-selected: var(--the-light-color);
     --bg-overlay-active: var(--the-light-color);
     --bg-overlay: var(--the-light-color);
-    --green-360: rgb(64, 160, 43);
+    --green-360: rgb(166, 218, 149);
     --background-modifier-selected: var(--the-light-color);
     --search-popout-option-fade: var(--background-secondary);
     --home-background: var(--background-primary);
@@ -387,8 +392,13 @@ code {
     --user-profile-container-color: var(--background-primary);
     --selection-color: rgb(114, 135, 253);
     --white-theme-hover-color: var(--text-normal);
-    --status-warning: rgb(223, 142, 29);
-    --status-danger: rgb(230, 69, 83);
+    --status-warning: rgb(238, 212, 159);
+    --status-danger: rgb(237, 135, 150);
+    --modal-background: var(--background-tertiary);
+    --bg-base-tertiary: var(--background-tertiary);
+    --bg-base-secondary: var(--background-secondary);
+    --background-modifier-accent: var(--the-light-color);
+    --profile-gradient-button-color: var(--the-light-color);
 }
 
 .theme-dark .container__10dc7, .scroller__81266, .pageBody_db54f5 {
@@ -410,7 +420,7 @@ rect[fill="#f0b232"] {
     fill: var(--status-warning);
 }
 rect[fill="#f23f43"], svg[fill="#f23f43"] {
-    fill: rgb(237, 135, 150);
+    fill: var(--status-danger);
 }
 
 .rtcConnectionStatusConnected__1d5b0 {
@@ -1088,7 +1098,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
     box-shadow: none;
 }
 
-.spoilerWarning_d02e2d {
+.spoilerWarning_d02e2d, .withTagAsButton_cc125f, .withTagless__98b7d {
     transition-property: background-color;
     transition-duration: 300ms;
 }

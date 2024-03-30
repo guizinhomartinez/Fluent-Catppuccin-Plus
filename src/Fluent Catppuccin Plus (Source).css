@@ -38,7 +38,7 @@ code {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.hasConnectedBar__277ab /* when you reply to a message and the two bars connect */ {
+.hasConnectedBar__277ab, .hasConnectedBar__7d21e /* when you reply to a message and the two bars connect */ {
     border-radius: 0 0 30px 30px !important;
     /* box-shadow: 0 0 5px black; */
 }
@@ -318,6 +318,20 @@ code {
     transition-property: opacity;
     transition-duration: 150ms;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper__4e6b6 {
+    opacity: 0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    transition-property: opacity;
+    transition-duration: 150ms;
+}
+
+.wrapper__4e6b6:not(:hover) {
+    opacity: 1 !important;
+    transition-property: opacity;
+    transition-duration: 150ms;
 }
 
 .buttons__3766a {
@@ -910,7 +924,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
     box-shadow: none;
 }
 
-.replyBar_b64d74, .attachedBars_da3c74 {
+.replyBar_b64d74, .attachedBars_da3c74, .replyBar_ed6afc, .channelTextArea__648e5 {
     background-color: transparent;
     box-shadow: none;
 }
@@ -919,7 +933,7 @@ rect[fill="#f23f43"], svg[fill="#f23f43"] {
     border-radius: 30px 30px 0 0;
 }
 
-.theme-light .attachedBars_da3c74, .clipContainer__99c30, .replyBar_b64d74 {
+.theme-light .attachedBars_da3c74, .clipContainer__99c30, .replyBar_b64d74, .replyBar_ed6afc, .container__72188, .attachedBars_c1606a {
     border-radius: 30px 30px 0 0;
     background-color: var(--the-light-color);
     box-shadow: none;
